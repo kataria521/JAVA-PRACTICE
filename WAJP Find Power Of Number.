@@ -1,0 +1,19 @@
+package com.kataria;
+import java.util.Scanner;
+public class PowerOfN 
+{
+	public static void main(String[] args) 
+	{
+		Scanner ip=new Scanner(System.in);
+		System.out.println("Enter the number:- ");
+		int num=ip.nextInt();
+		System.out.println("Enter the Power:- ");
+		int pow=ip.nextInt();
+		int res=num;
+		for(int i=2; i<=pow; i++)
+		{
+			res=res*num;
+		}
+		System.out.println(res);
+	}
+}
