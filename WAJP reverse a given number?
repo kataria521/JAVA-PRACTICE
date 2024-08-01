@@ -1,0 +1,18 @@
+package com.kataria;
+import java.util.Scanner;
+public class ReverseNumber 
+{
+	public static void main(String[] args) 
+	{
+		Scanner ip=new Scanner(System.in);
+		System.out.println("Enter the number:- ");
+		int num=ip.nextInt();
+		while(num!=0)
+		{
+			int rem=num%10;
+			System.out.println(rem);
+			num=num/10;
+		}
+		ip.close();
+	}
+}
