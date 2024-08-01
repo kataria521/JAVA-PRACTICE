@@ -1,0 +1,13 @@
+package com.kataria;
+import java.util.Scanner;
+public class EvenOddWthoutIf
+{
+	public static void main(String[] args) 
+	{
+		Scanner ip=new Scanner(System.in);
+		System.out.println("Enter the number:- ");
+		int num=ip.nextInt();
+		System.out.println(num%2==0?"Even Number":"Odd Number");
+		ip.close();
+	}
+}
